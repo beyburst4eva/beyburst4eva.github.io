@@ -1,0 +1,289 @@
+.span-valt {
+    color:#5d00ff;
+    font-weight: bold;
+    }
+    .span-lui {
+    color:#6a349b;
+    font-weight: bold;
+    }
+    .span-infamous {
+    color:#fff800;
+    font-weight: bold;
+    }
+    .span-wakiya {
+    color:#bf00ff;
+    font-weight: bold;
+    }
+    .span-star {
+    color:#da855c;
+    font-weight: bold;
+    }
+    .find {
+    color:white;
+    font-family: Arial;
+    margin-bottom:83px;
+    }
+    body {
+    background: linear-gradient(
+    to right,
+    red,
+    purple,
+    orange,
+    yellow,
+    orange,
+    purple,
+    red
+    );
+    }
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+.nul {
+height: 200px;
+}
+header {
+    padding: 0 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+  }
+  
+  #brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #brand a {
+    color: #09c372;
+  }
+  
+  ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  appearance: 110%;
+  margin: 6px 0;
+  transition: 0.4s;
+  color:blue
+}
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  height: 350px;
+}
+.nul1 {
+background-color:red;
+height:100px;
+}
+.update {
+  color:dodgerblue;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: Arial;
+  margin-right: 20px;
+}
+.we {
+  color:lightblue;
+  text-decoration: none;
+  font-family: Arial;
+  }
+  .we:hover {
+  color:red;
+  text-decoration: none;
+  font-family: Arial;
+  transition: 0.19s;
+  transition: 0.23s;
+  }
+  .we:active {
+  color:black;
+  text-decoration: none;
+  font-family: Arial;
+  }
+.update:hover {
+  color:red;
+  text-decoration: none;
+  font-family: Arial;
+  transition: 0.19s;
+  transition: 0.23s;
+}
+.update:active {
+  color:black;
+  text-decoration: none;
+  font-family: Arial;
+}
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
+    .who-are-bbfs {
+        color:white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    .explaination-about-bbf {
+    color:aqua;
+    font-family:Arial;
+    text-align:left;
+    }
+    .sec-explaination {
+    Color:aqua;
+    font-family:Arial;
+    text-align: left;
+    }
+    .thr-exp {
+    Color:aqua;
+    font-family:Arial;
+    text-align: left;
+    }
+    .what-kind {
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-top:100px;
+    }
+    .expl-kind {
+    color:aqua;
+    font-family:Arial;
+    text-allign:left;
+    }
+    .expl-2 {
+    color:aqua;
+    font-family:Arial;
+    text-allign:left;
+    margin-bottom:100px;
+    }
+    .expl-3 {
+    color:aqua;
+    font-family:Arial;
+    text-allign:left;
+    }
+    .guideliners {
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    }
+    .journey {
+        color:rgb(0, 255, 234);
+        font-family: Arial;
+        text-align:bottom;
+    }
+    .contact-us {
+    color:black;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration: unset;
+    margin-right:30px;
+    margin-left:50px
+    }
+    .contact-us:hover {
+    color:red;
+    transition: 0.19s;
+    transition: 0.23s;
+    }
+    .website {
+    color:blue;
+    font-family:Arial;
+    font-weight:Bolder;
+    font-size:20px;
+    margin-left: 480px;
+    cursor:pointer;
+    }
+    .website:hover {
+    color: red;
+    transition: 0.19s;
+    transition: 0.23s;
+    }
+    .guideliners-answer {
+    color:aqua;
+    font-family:Arial;
+    text-allign:left;
+    }
+    .guideliners-answer-2 {
+    color:aqua;
+    font-family:Arial;
+    text-allign:left;
+    }
+    .guideliner-1 {
+    color:aqua;
+    font-family:Arial;
+    }
+    .guideliner-2 {
+    color:aqua;
+    font-family:Arial;
+    }
+    .guideliner-3 {
+    color:aqua;
+    font-family:Arial;
+    }
+    .guideliner-4 {
+    color:aqua;
+    font-family:Arial;
+    }
+    .guideliner-5 {
+    color:aqua;
+    font-family:Arial;
+    margin-top:5px;
+    }
+    .copyright {
+      color:gray;
+      font-family: Arial;
+      font-weight: bold;
+     margin-top: 40px; 
+     }

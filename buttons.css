@@ -1,0 +1,515 @@
+body {
+    background: linear-gradient(
+    to bottom,
+white,
+white,
+white,
+white,
+white,
+white,
+white,
+black,
+    rgb(93, 0, 255),
+    black,
+    rgb(106, 52, 155),
+    black,
+    rgb(255, 248, 0),
+    black,
+    #bf00ff,
+    black,
+    rgb(218, 133, 92),
+    black,
+    white,
+    white
+);
+}
+    .home {
+    width:60px;
+    margin-bottom: 20px;
+    margin-right:1000px;
+    
+    }
+    .beginning {
+    font-family:Nyala;
+    color:red;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size:20px;
+    font-weight: bolder;
+    }
+    .valt-daizora {
+    font-weight:bold;
+    color:#5d00ff;
+    }
+    .subscribe-valt {
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color:rgb(255, 0, 0);
+    height:36px;
+    width:111px;
+    font-weight: 100;
+    font-size: 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    }
+    .subscribe-valt:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    }
+    
+    .subscribe-valt:hover {
+    background-color: rgb(93, 0, 255);
+    color:white;
+    }
+    .subscribe-valt:active {
+    background-color: rgb(255, 0, 0);
+    color:white;
+    }
+    .lui-koryu {
+    font-weight:bold;
+    color:#6a349b
+    }
+    .subscribe-lui {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color:rgb(255, 0, 0);
+    height:36px;
+    width:111px;
+    font-weight: 100;
+    font-size: 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    }
+    .subscribe-lui:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    }
+    
+    .subscribe-lui:hover {
+    background-color: rgb(106, 52, 155);
+    color: white;
+    }
+    .subscribe-lui:active {
+    background-color: rgb(255, 0, 0);
+    color:white;
+    }
+    .infamous_free {
+    font-weight:bold;
+    color:#fff800;
+    }
+    .subscribe-infamous {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color:rgb(255, 0, 0);
+    height:36px;
+    width:111px;
+    font-weight: 100;
+    font-size: 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    }
+    .subscribe-infamous:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    }
+    
+    .subscribe-infamous:hover {
+    background-color: rgb(255, 248, 0);
+    color:white;
+    }
+    .subscribe-infamous:active {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    }
+    .wakiya-murasaki {
+    font-weight: bold;
+    color:#bf00ff;
+    }
+    .subscribe-wakiya {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color:rgb(255, 0, 0);
+    height:50px;
+    width:111px;
+    font-weight: 100;
+    font-size: 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    }
+    .subscribe-wakiya:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    }
+    
+    .subscribe-wakiya:hover {
+    background-color: #bf00ff;
+    color:white;
+    }
+    .subscribe-wakiya:active {
+    background-color: rgb(255, 0, 0)
+    }
+    .stardustblader01 {
+    font-weight:bold;
+    color:#da855c;
+    }
+    .subscribe-stardust {
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color:rgb(255, 0, 0);
+    height:36px;
+    width:111px;
+    font-weight: 100;
+    font-size: 13px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    margin-bottom: 100px;
+    }
+    .subscribe-stardust:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    }
+    
+    .subscribe-stardust:hover {
+    background-color: rgb(218, 133, 92);
+    color:white;
+    }
+    .subscribe-stardust:active {
+    background-color: rgb(255, 0, 0);
+    color:white;
+    }
+    .join-valt {
+    background-color:rgb(93, 0, 255);
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    height:36px;
+    width:111px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    vertical-align: bottom;
+    }
+    .join-valt:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.50);
+    }
+    .join-valt:hover {
+    background-color:black;
+    color: white;
+    }
+    .join-valt:active {
+    background-color: rgb(0, 0, 255);
+    color:white;
+    }
+    .join-lui {
+    background-color:rgb(106, 52, 155);
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    height:36px;
+    width:111px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    vertical-align: bottom;
+    }
+    .join-lui:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.50);
+    }
+    .join-lui:hover {
+    background-color:black;
+    color:white;
+    }
+    .join-lui:active {
+    background-color: rgb(0, 0, 255);
+    color:white;
+    }
+    .join-infamous {
+    background-color:rgb(255, 248, 0);
+    border-color:rgb(0, 0, 0);
+    color:black;
+    border-style: solid;
+    height: 36px;
+    width: 111px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    vertical-align: bottom;
+    }
+    .join-infamous:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.50);
+    }
+    .join-infamous:hover {
+    background-color:black;
+    color:white;
+    }
+    .join-infamous:active {
+    background-color: rgb(0, 0, 255);
+    color:white;
+    }
+    .join-wakiya {
+    background-color:#bf00ff;
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    height:50px;
+    width:111px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    vertical-align: bottom;
+    }
+    .join-wakiya:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.50);
+    }
+    .join-wakiya:hover {
+    background-color:black;
+    color: white;
+    }
+    .join-wakiya:active {
+    background-color: rgb(0, 0, 255);
+    color:white;
+    }
+    .join-button {
+    background-color:greenyellow;
+    border-color:rgb(0, 0, 0);
+    border-color:rgb(76, 0, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-style: solid;
+    height:60px;
+    width:120px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.19s;
+    transition: background-color 0.23s;
+    transition: box-shadow 0.23s;
+    transition: opacity 0.23s;
+    transition: background-color 0.23s;
+    vertical-align: bottom;
+    }
+    .join-button:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.50);
+    }
+    .join-button:hover {
+    background-color:black;
+    color:white;
+    }
+    .join-button:active {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    }
+    .who-we-are {
+    color:black;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration: unset;
+    margin-left:580px;
+    }
+    .who-we-are:hover {
+    color:red;
+    transition: 0.19s;
+    transition: 0.23s;
+    }
+    #hamburger-icon {
+        margin: auto 0;
+        display: none;
+        cursor: pointer;
+      }
+      .nul {
+      height: 200px;
+      }
+      header {
+          padding: 0 20px;
+          height: 90px;
+          display: flex;
+          justify-content: space-between;
+          background-color: white;
+      
+        }
+        
+        #brand {
+          font-weight: bold;
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+        }
+        
+        #brand a {
+          color: #09c372;
+        }
+        
+        ul {
+          list-style: none;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+        
+        ul li {
+          padding: 5px;
+          margin-left: 10px;
+        }
+        
+        ul li:hover {
+          transform: scale(1.1);
+          transition: 0.3s;
+        }
+      #hamburger-icon div {
+        width: 35px;
+        height: 3px;
+        background-color: black;
+        appearance: 110%;
+        margin: 6px 0;
+        transition: 0.4s;
+        color:blue
+      }
+      .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-6px, 6px);
+      }
+      
+      .open .bar2 {
+        opacity: 0;
+      }
+      
+      .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-6px, -8px);
+        transform: rotate(45deg) translate(-6px, -8px);
+      }
+      
+      .open .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: white;
+        height: 350px;
+      }
+      .nul1 {
+      background-color:red;
+      height:100px;
+      }
+      .update {
+        color:dodgerblue;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: Arial;
+        margin-right: 20px;
+      }
+      .we {
+        color:lightblue;
+        text-decoration: none;
+        font-family: Arial;
+        }
+        .we:hover {
+        color:red;
+        text-decoration: none;
+        font-family: Arial;
+        transition: 0.19s;
+        transition: 0.23s;
+        }
+        .we:active {
+        color:black;
+        text-decoration: none;
+        font-family: Arial;
+        }
+      .update:hover {
+        color:red;
+        text-decoration: none;
+        font-family: Arial;
+        transition: 0.19s;
+        transition: 0.23s;
+      }
+      .update:active {
+        color:black;
+        text-decoration: none;
+        font-family: Arial;
+      }
+      .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        height: calc(100vh - 50px);
+        width: 100%;
+      }
+      
+      .mobile-menu li {
+        margin-bottom: 10px;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        header nav {
+          display: none;
+        }
+      
+        #hamburger-icon {
+          display: block;
+        }
+      }
+    .contact-us {
+    color:black;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration: unset;
+    margin-right:30px;
+    margin-left:50px
+    }
+    .contact-us:hover {
+    color:red;
+    transition: 0.19s;
+    transition: 0.23s;
+    }
+    .copyright {
+    color:gray;
+    font-family: Arial;
+    font-weight: bold;
+    }
